@@ -1,0 +1,25 @@
+Github Account
+
+1.	Create github account.
+2.	Register new OAuath application under Settings->OAuath applications menu
+3.	Enter app details there, after registering the app you will get client id and client secret.
+	explain about Authorization callback URL
+4.	Go to your profile page where you can create repositories and will display all repositories created by you.
+5.	after creating repository go to repository page where you will see all files and folders committed by collaborators.
+6.	Add/Remove collaborators under settings page in repository to give access to repository.
+
+Github Plugin
+
+1.	Enter all details which you got after creating app on github.
+2.	Admin can add/remove collaborators to your repository by using this plugin.
+3.	Listing page will display all collaborators with access to their repository.
+4.	We have included Github OAuth library to handle github login.
+5.	To add/remove and get list we have used github php client library.
+6.	After installing the plugin you will see one extra field Repository Name on every product page with all repositories lising.
+7.	Create product and select individual repository for each product.
+
+8.	The plugin will work along with woocommerce plugin.
+9.	Add product to cart for which you need access and go to checkout page.
+10.	You will see Login with Github button if you are not logged in. Enter your github username and password to login.
+11.	After successfull checkout check your github account, you will see repository there with owner name before. You will receive email notification saying that you are now added as a collborator for XYZ repository.
+12.	Make an svn checkout in your localhost and do necessary svn operations, you can see your changes after committing repository on your github account.
